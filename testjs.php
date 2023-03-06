@@ -4,8 +4,8 @@
 	<title>Calcul du factoriel</title>
 	<script>
 		function calculerFactoriel() {
-			let n = prompt("Entrez un chiffre N :");
-			let factoriel = 1;
+			var n = prompt("Entrez un chiffre N :");
+			var factoriel = 1;
 			for (let i = 1; i <= n; i++) {
 			  factoriel *= i;
 			}
