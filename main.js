@@ -1,8 +1,10 @@
 function change(){ 
 var madiv1 = document.getElementsByTagName("madiv1");
-for each (madiv1){
-madiv1.innerHTML = "hello";
-}
+    for(let i = 0;i < madiv1.length; i++)
+    {
+        madiv1[i].innerHTML = "hello";
+    }
+
 }
 
 change();
