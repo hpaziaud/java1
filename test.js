@@ -1,4 +1,9 @@
+function funt(){
 setTimeout(function() {
  console.log("I'm here!")
 }, 5000);
-console.log("Where are you?");
+
+console.log("Where are you?");}
+
+
+funt();
