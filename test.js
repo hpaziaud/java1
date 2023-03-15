@@ -7,3 +7,7 @@ console.log("Where are you?");}
 
 
 funt();
+element.addEventListener('click', function(e) {
+    // Do something here ...
+    alert("hiiiiiiii");
+   });
