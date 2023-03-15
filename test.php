@@ -7,10 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="root"> hello my name is hassan: </div>
+    <div name="madiv1">coucou</div>
+    <div name="madiv1">coucou</div>
+    <div name="madiv1">coucou</div>
     <button id="myBtn">Try it</button>
 
     <script src="test.js"></script>
+    
+    <?php
+    $retour[0] = rand(0,100);
+
+    echo json_encode($retour);
+
+    ?>
     
 </body>
 </html>

@@ -15,9 +15,12 @@ document.getElementById("myBtn").addEventListener('click', function(e) {
    });
 
 
-   function change(){
-   document.getElementById("root"){
-    root.innerHTML = "my name is hassan";
-   }
-   }
+   function change(){ 
+    var madiv1 = document.getElementsByTagName("madiv1");
+        for(let i = 0;i < madiv1.length; i++)
+        {
+            madiv1[i].innerHTML = "hello";
+        }
+    
+    }
 change();
