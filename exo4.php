@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-
 <?php
 $data = array('random_number' => rand(1, 100));
 header('Content-Type: application/json');
@@ -17,7 +16,5 @@ echo json_encode($data);
 
 <button id="get-random-number">Obtenir un nombre aléatoire</button>
 <div id="random-number-container"></div>
-
-<script src="test.js"></script>
 </body>
 </html>
